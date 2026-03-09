@@ -1,0 +1,56 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Remove Caffeine.AI branding from footer",
+  "requirements": [
+    {
+      "id": "REQ-16",
+      "summary": "Remove Caffeine.AI branding text and link from Footer component",
+      "acceptanceCriteria": [
+        "The text 'Build with ❤️ using Caffeine.AI' is completely removed from the footer",
+        "No broken links or placeholder text remain in the footer",
+        "Footer only contains copyright text with salon name"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Remove the branded link element containing 'Build with ❤️ using Caffeine.AI' and its associated anchor tag with UTM tracking parameters, preserving only the copyright notice with the salon name"
+        }
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "summary": "Adjust footer padding and spacing for balanced layout",
+      "acceptanceCriteria": [
+        "Footer maintains proper vertical padding",
+        "No awkward empty spaces are visible",
+        "Layout appears balanced and intentional"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update footer container padding and spacing classes to ensure proper vertical rhythm and eliminate any empty space left by the removed branding element, maintaining a clean single-line copyright layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "summary": "Ensure footer responsiveness and professional appearance across all devices",
+      "acceptanceCriteria": [
+        "Footer displays correctly on mobile screens (320px and up)",
+        "Footer text is readable on all device sizes",
+        "Footer maintains consistent styling with the rest of the site",
+        "Footer only displays salon branding, no third-party credits"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Verify and adjust responsive breakpoints and text sizing to ensure footer remains readable and properly spaced on mobile devices (320px+), maintaining touch-friendly spacing and consistent styling with the salon's existing design system"
+        }
+      ]
+    }
+  ]
+}

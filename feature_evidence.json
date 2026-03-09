@@ -1,0 +1,59 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-remove-the-text-build-with-using-caffeine-ai-and-its-associated-link-from-the-footer-component",
+      "featureTitle": "Remove the text 'Build with ❤️ using Caffeine.AI' and its associated link from the Footer component",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-adjust-footer-padding-and-spacing-to-ensure-no-empty-space-or-broken-layout-remains-after-removing-the-branding-line",
+      "featureTitle": "Adjust footer padding and spacing to ensure no empty space or broken layout remains after removing the branding line",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-17"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-ensure-the-footer-remains-fully-responsive-on-mobile-devices-with-touch-friendly-spacing-and-clean-minimal-design",
+      "featureTitle": "Ensure the footer remains fully responsive on mobile devices with touch-friendly spacing and clean minimal design",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-18"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

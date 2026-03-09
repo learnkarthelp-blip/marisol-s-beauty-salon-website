@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders Header, all page sections (hero, about, services, booking, gallery, reviews, contact), Footer, and StickyCallButton components.",
+  "frontend/src/components/HeroSection.tsx": "Hero section with full-screen background, mobile-first typography (32px+ headlines), two CTA buttons, and id=\"home\" for navigation scrolling.",
+  "frontend/src/components/AboutSection.tsx": "About section with Marisol's image, 4.6-star rating, description, mobile-first typography (32px+ headlines, 18px+ body text), and id=\"about\" for navigation.",
+  "frontend/src/components/ServicesSection.tsx": "Services section displaying five service cards with mobile-first typography (28px+ card titles, 18px+ descriptions) and id=\"services\" for navigation.",
+  "frontend/src/components/BookingForm.tsx": "Online booking form with mobile-first typography (18px+ labels, 48px input heights), touch-friendly submit button (56px height), and id=\"booking\" for navigation.",
+  "frontend/src/components/GallerySection.tsx": "Gallery section with responsive grid layout, four images with hover effects, mobile-first typography (32px+ headlines), and id=\"gallery\" for navigation.",
+  "frontend/src/components/ReviewsSection.tsx": "Reviews section with 4.6-star rating display, four client testimonial cards, mobile-first typography (32px+ headlines, 18px+ review text), and id=\"reviews\" for navigation.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with address, touch-friendly click-to-call phone link (44px+ tap area), business hours, Google Maps iframe, mobile-first typography, and id=\"contact\" for navigation.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright text and salon name only, no third-party branding or attribution links.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including useSubmitBooking mutation and useGetAllBookings query.",
+  "frontend/src/index.css": "Global styles with OKLCH color system, mobile-first typography base rules (16px body, 28px+ headings, 1.6 line-height), and touch-friendly interactive element minimum heights (44px).",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom rose gold/beige/cream/charcoal colors, mobile-first responsive font sizes (16px base, 18px lg, 28px+ headings with optimized line-heights), and Playfair Display/Inter fonts.",
+  "frontend/index.html": "HTML entry point with local SEO meta tags (geo-location for San Fernando CA, LocalBusiness JSON-LD schema with coordinates, phone, rating), Open Graph tags, and optimized title/description for local search.",
+  "frontend/src/main.tsx": "Application entry point with QueryClient, InternetIdentityProvider, and Sonner toast notifications configured.",
+  "frontend/src/components/Header.tsx": "Responsive header navigation with hamburger menu for mobile (slide-out menu with smooth scroll links) and horizontal navigation for desktop, includes logo and call-to-action button.",
+  "frontend/src/components/StickyCallButton.tsx": "Fixed-position call button at bottom of mobile viewport with phone icon, number (747) 279-8532, tel: link, and touch-friendly 56px minimum height."
+}

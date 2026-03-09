@@ -1,0 +1,81 @@
+{
+  "kind": "build_request",
+  "title": "Remove Caffeine.AI branding from footer",
+  "projectName": "Marisol's Beauty Salon",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-16",
+      "text": "Remove the text 'Build with ❤️ using Caffeine.AI' and its associated link from the Footer component",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Edit the website footer and remove the text: \"Build with ❤️ using Caffeine.AI\"",
+          "Completely clear this branding line from the bottom section of the website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The text 'Build with ❤️ using Caffeine.AI' is completely removed from the footer",
+        "No broken links or placeholder text remain in the footer",
+        "Footer only contains copyright text with salon name"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Adjust footer padding and spacing to ensure no empty space or broken layout remains after removing the branding line",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Ensure no empty space or broken layout remains",
+          "Adjust padding and spacing properly"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer maintains proper vertical padding",
+        "No awkward empty spaces are visible",
+        "Layout appears balanced and intentional"
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "text": "Ensure the footer remains fully responsive on mobile devices with touch-friendly spacing and clean minimal design",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Ensure the footer remains fully responsive on mobile devices",
+          "Keep the footer clean and professional",
+          "The final footer should look minimal, branded only with the salon's own name"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer displays correctly on mobile screens (320px and up)",
+        "Footer text is readable on all device sizes",
+        "Footer maintains consistent styling with the rest of the site",
+        "Footer only displays salon branding, no third-party credits"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not remove copyright text",
+    "Maintain existing footer styling and color scheme",
+    "Keep footer component structure intact"
+  ],
+  "nonGoals": [
+    "Adding new footer content",
+    "Redesigning the entire footer layout",
+    "Changing footer background colors or typography"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
